@@ -1,0 +1,10 @@
+# surfs_up
+Overview:
+W.Avy is looking to open up a surfing/icecream shop up in Hawaii.  Their main concern for opening the shop was Hawaii's weather patterns.  We were made aware of a previous venture that had failed due to the sheer amount of rain that the Island receives.  In an effort to thwart those concerns, we were tasked with analyzing these weather patterns for two specific months: June and December.  Insight on this data would provide an outlook as to how sustainable the weather is during the winter and summers.  To look at this data, we pulled information from an SQLite database through a session that was created in python.  The data from the SQL database was then acted on using our Python SQL tool kit, which included SQLalchemy. 
+
+Results:
+It was found that there were marginal differences in temperature on the Island during June and December.  As expected, the summers are in fact warmer than their winters; however, the mean for both months is only off by 3.8 degrees fareinheit. The min in december is 56 degrees, which is pretty cold.  The min in June is 64, which is entirely surfable weather. 
+
+Summary:
+In my opinion this is as incomplete of an analysis as it gets.  Firstly, what should have been identified is the time periods in which surfing is most popular. Though it is dependent on the regions surf culture, my knowledge is that the majority of surfing occurs in the morning before people have work and when the waves are at their best. Weather data could be entirely different during the wee hours of the morning, especially if you are only looking for temperatures in the given time frame.  That is certainly something to consider.  Furthermore, weather would be the least of your worries if there are already several other surf shops in the region.  If ice cream differentiates you from the rest, then that is a plus.  But one shoudl also consider wheter the locals are loyal to their shop that already exits.  For these reasons I do not believe I can recommend opening a store by just looking at whether or not it is hot or cold. 
+
